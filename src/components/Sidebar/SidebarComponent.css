@@ -1,0 +1,25 @@
+.container-sidebar {
+  position: fixed;
+  bottom: 20px;
+  right: 35px;
+  z-index: 3;
+}
+
+.list-sidebar {
+  list-style: none;
+}
+
+.link-sidebar {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  color: #64ffda;
+}
+
+.icon-sidebar {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 800px) {
+}

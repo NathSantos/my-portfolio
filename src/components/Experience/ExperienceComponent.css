@@ -1,0 +1,96 @@
+.container-experience {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 1500px;
+  margin-top: 32%;
+  z-index: 2;
+}
+
+.sub-container-experience {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.highlight-text {
+  color: #64ffda;
+}
+
+.tabContainer {
+  font-family: "NTR", "Dosis", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #8892b0;
+  font-size: 20px;
+}
+
+.tabTitle {
+  color: #ccd6f6;
+}
+
+.tabTime {
+  font-size: 22px;
+}
+
+.tabTopics li::marker {
+  color: #64ffda;
+  margin-right: 20px;
+}
+
+.tabTopics li {
+  text-align: left;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.tabTopics {
+  width: 740px;
+  padding-left: 0px;
+}
+
+.tabPanel-box {
+  padding: 0px 48px;
+}
+
+.customTabText {
+  font-family: "NTR", "Dosis", sans-serif !important;
+  font-size: 17px !important;
+}
+
+@media screen and (max-width: 1080px) {
+  .sub-container-experience {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tabPanel-box {
+    padding-left: 0px;
+    padding-top: 25px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .tabContainer {
+    font-size: 21px;
+  }
+
+  .tabTitle {
+    font-size: 25px;
+  }
+
+  .tabTime {
+    font-size: 22px;
+  }
+
+  .tabTopics {
+    width: 550px;
+  }
+
+  .customTabText {
+    font-size: 18px !important;
+  }
+}

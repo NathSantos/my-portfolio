@@ -1,0 +1,95 @@
+.container-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 1500px;
+  margin-top: 32%;
+  z-index: 2;
+}
+
+.sub-container-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  max-width: 75%;
+  text-align: justify;
+}
+
+.project-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 45px;
+}
+
+.highlight-text {
+  color: #64ffda;
+}
+
+.project-card {
+  width: calc(40% - 20px);
+  background-color: rgba(22, 19, 57, 0.5) !important;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(1px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  margin-right: 35px;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+}
+
+.project-text {
+  font-family: "NTR", "Dosis", sans-serif !important;
+}
+
+.project-title {
+  font-size: 32px !important;
+  color: #ccd6f6 !important;
+}
+
+.project-description {
+  font-size: 20px !important;
+  color: #8892b0 !important;
+}
+
+.project-btn {
+  font-size: 18px !important;
+  color: #64ffda !important;
+  margin-left: 10px !important;
+}
+
+.icon-github {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1080px) {
+  .project-row {
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+  }
+
+  .project-card {
+    width: calc(50% - 20px);
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .project-row {
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+  }
+
+  .sub-container-projects {
+    max-width: 60%;
+  }
+
+  .project-card {
+    width: calc(50% - 20px);
+    margin-bottom: 30px;
+  }
+}
