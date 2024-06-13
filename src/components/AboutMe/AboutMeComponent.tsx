@@ -47,11 +47,35 @@ const AboutMeComponent = () => {
               <span className='highlight-text'>
                 Eldorado Research Institute
               </span>
-              , in Manaus. At the same time, I am in the last semester of the
-              Computer Science course at the
+              , in Manaus. At the same time, I monitor the{' '}
+              <span className='highlight-text'>Web Academy Project</span>, a
+              training project that trains professionals in the area of ​​web
+              development and which takes place at the
               <span className='highlight-text'>
                 {' '}
                 Federal University of Amazonas (UFAM)
+              </span>
+              . Additionally, I have a
+              <span className='highlight-text'>
+                {' '}
+                bachelor's degree in computer science.{' '}
+              </span>
+              <i className='fa-solid fa-heart' />
+              <br />
+              <br />I have gained significant technical expertise in programming
+              through hands-on experience with real-world projects in the
+              industry. This has provided me with the opportunity to{' '}
+              <span className='highlight-text'>
+                develop and maintain complex web applications
+              </span>{' '}
+              using a variety of technologies. I have also become proficient in
+              working with databases and have utilized cloud platforms such as
+              AWS to deploy scalable solutions. These projects have not only
+              honed my coding skills but have also deepened my understanding of{' '}
+              <span className='highlight-text'>software architecture</span>,{' '}
+              <span className='highlight-text'>agile methodologies</span>, and{' '}
+              <span className='highlight-text'>
+                best practices in software development
               </span>
               .
               <br />
@@ -69,9 +93,9 @@ const AboutMeComponent = () => {
               the academic community.
               <br />
               <br />
-              Aside from academic life and work, I really enjoy spending my free
-              time reading books, watching anime and doing some coding. Oh, and
-              of course, having a good cup of coffee.{' '}
+              In my free time, I really like reading books, watching series and
+              anime and playing video games. Oh, and of course, programming with
+              a good cup of coffee is always a good choice.{' '}
               <i className='fa-solid fa-mug-hot' />
             </p>
           </div>

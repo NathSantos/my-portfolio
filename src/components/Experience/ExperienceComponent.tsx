@@ -104,16 +104,22 @@ const ExperienceComponent = () => {
             {...a11yProps(0)}
           />
           <Tab
-            label='Federal University of Amazonas'
+            label='Web Academy Monitor'
             className='customTabText'
             style={value === 1 ? activeTabStyle : customTabStyle}
             {...a11yProps(1)}
+          />
+          <Tab
+            label='Web Academy Student'
+            className='customTabText'
+            style={value === 2 ? activeTabStyle : customTabStyle}
+            {...a11yProps(2)}
           />
         </Tabs>
         <TabPanel value={value} index={0}>
           <div className='tabContainer'>
             <h3 className='tabTitle'>
-              Full Stack Web Development Intern @{' '}
+              Full Stack Web Developer @{' '}
               <span className='highlight-text'>Eldorado</span>
             </h3>
             <p className='tabTime'>JUL 2023 - PRESENT</p>
@@ -149,6 +155,48 @@ const ExperienceComponent = () => {
           </div>
         </TabPanel>
         <TabPanel value={value} index={1}>
+          <div className='tabContainer'>
+            <h3 className='tabTitle'>
+              Web Development Monitor @{' '}
+              <span className='highlight-text'>Web Academy Project</span>
+            </h3>
+            <p className='tabTime'>DEC 2023 - PRESENT</p>
+            <motion.div {...motionDivPropsTopics}>
+              <ul className='tabTopics'>
+                <li>
+                  Assist students in resolving technical issues related to web
+                  development projects, including debugging code and solving
+                  complex programming problems.
+                </li>
+                <li>
+                  Provide support in the use of development tools and
+                  environments, ensuring students can effectively utilize
+                  technologies like React, Node.js, and Docker.
+                </li>
+                <li>
+                  Provide one-on-one and group mentoring sessions to students,
+                  offering insights and guidance on web development concepts and
+                  best practices.
+                </li>
+                <li>
+                  Design and implement new learning materials, exercises, and
+                  projects to enhance the educational experience for students.
+                </li>
+                <li>
+                  Oversee student projects from inception to completion,
+                  ensuring timely progress and adherence to project
+                  requirements.
+                </li>
+                <li>
+                  Organize and lead workshops and seminars on advanced web
+                  development topics, tools, and frameworks to deepen students'
+                  knowledge and skills.
+                </li>
+              </ul>
+            </motion.div>
+          </div>
+        </TabPanel>
+        <TabPanel value={value} index={2}>
           <div className='tabContainer'>
             <h3 className='tabTitle'>
               Full Stack Web Development Student @{' '}

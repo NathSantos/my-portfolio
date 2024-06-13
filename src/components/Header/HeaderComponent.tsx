@@ -12,12 +12,12 @@ const motionDivProps = {
 const HeaderComponent = () => {
   const [textColor, setTextColor] = useState('#CCD6F6');
 
-  const downloadCv = () => {
-    const link = document.createElement('a');
-    link.href = 'cv.pdf';
-    link.download = 'cv.pdf';
-    link.click();
-  };
+  // const downloadCv = () => {
+  //   const link = document.createElement('a');
+  //   link.href = 'cv.pdf';
+  //   link.download = 'cv.pdf';
+  //   link.click();
+  // };
 
   return (
     <div className='container-header' id='header'>
@@ -48,10 +48,12 @@ const HeaderComponent = () => {
       <motion.div {...motionDivProps}>
         <div className='container-small-desciption'>
           <p id='small-desciption'>
-            I'm a computer science student and web programmer based in Manaus,
-            Brazil. I have a great interest in full-stack web development, cloud
-            computing, artificial intelligence, devops, and everything in
-            between.
+            I'm a full-stack web developer based in Manaus, Brazil. I have a
+            bachelor's degree in computer science and a solid background and
+            passion for web development and related fields. I am always looking
+            for new opportunities to learn and apply innovative technologies. My
+            goal is to contribute to challenging and impactful projects, while
+            expanding my technical skills and knowledge in the area.
           </p>
         </div>
         <div className='container-buttons'>
@@ -61,13 +63,13 @@ const HeaderComponent = () => {
               say hi!
             </button>
           </a>
-          <button className='button' id='download-cv-btn' onClick={downloadCv}>
+          {/* <button className='button' id='download-cv-btn' onClick={downloadCv}>
             <i
               className='fa-solid fa-file-arrow-down icon'
               id='download-icon'
             />
             download cv
-          </button>
+          </button> */}
         </div>
       </motion.div>
     </div>
